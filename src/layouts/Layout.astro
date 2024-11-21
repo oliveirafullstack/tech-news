@@ -1,0 +1,54 @@
+---
+import "../styles/index.scss"
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+	<meta charset="UTF-8" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<meta name="description" content="Portal de Notícias Desenvolvido por EmmanueL Oliveira" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<meta name="generator" content={Astro.generator} />
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+<style is:global lang="scss">
+	@use "../styles/variables.scss" as var;
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+
+body {
+	background-color: var.$bg-color;
+	color: var.$text-color-primary;
+	font: var.$text;
+}
+:is(h1,h2,h3, p, span) {
+	font: inherit;
+	text-wrap: balance;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	&:hover {
+		color: var.$brand-color-light;
+	}
+}	
+	
+</style>
