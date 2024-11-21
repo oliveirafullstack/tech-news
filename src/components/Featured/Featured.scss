@@ -1,0 +1,21 @@
+@use "../../styles/mixins.scss" as mx;
+
+#featured {
+  img {
+    height: 100%;
+    object-fit: cover;
+
+    box-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.5);
+  }
+  @include mx.gap-16;
+  @include mx.grid;
+  @include mx.grid-flow-col;
+  & > div {
+    @include mx.grid;
+    @include mx.grid-cols-2;
+    @include mx.gap-16;
+    img {
+      grid-column: 1/3;
+    }
+  }
+}

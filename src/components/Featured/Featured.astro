@@ -1,0 +1,30 @@
+---
+import "./Featured.scss";
+import Image from "astro/components/Image.astro";
+import Image1 from "../../components/assets/images/Image 01.png";
+import Image2 from "../../components/assets/images/Image 02.png";
+import Image3 from "../../components/assets/images/Image 03.png";
+import Image4 from "../../components/assets/images/Image 04.png";
+import Image5 from "../../components/assets/images/Image 05.png";
+---
+
+<section id="featured">
+  <div class="card">
+    <Image src={Image1} alt="" />
+  </div>
+
+  <div>
+    <div class="card">
+      <Image src={Image2} alt="" />
+    </div>
+    <div class="card">
+      <Image src={Image3} alt="" />
+    </div>
+    <div class="card">
+      <Image src={Image4} alt="" />
+    </div>
+    <div class="card">
+      <Image src={Image5} alt="" />
+    </div>
+  </div>
+</section>

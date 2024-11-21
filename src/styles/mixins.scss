@@ -4,3 +4,11 @@
 @mixin grid-flow-col {
   grid-auto-flow: column;
 }
+
+@mixin grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@mixin gap-16 {
+  gap: 16px;
+}
