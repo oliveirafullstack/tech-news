@@ -1,0 +1,6 @@
+@mixin grid {
+  display: grid;
+}
+@mixin grid-flow-col {
+  grid-auto-flow: column;
+}

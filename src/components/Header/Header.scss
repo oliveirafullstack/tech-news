@@ -1,0 +1,26 @@
+@use "../../styles/mixins.scss" as mx;
+@use "../../styles/variables.scss" as var;
+#primary {
+  @include mx.grid;
+  @include mx.grid-flow-col;
+  padding-block: 20px;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  & div:nth-child(2) {
+    margin-inline: auto;
+  }
+  & div:nth-child(3) {
+    justify-self: end;
+  }
+}
+#secondary {
+  @include mx.grid;
+  @include mx.grid-flow-col;
+  padding-block: 14px;
+  border: 1px solid var.$stroke-color;
+  border-inline: none;
+  justify-content: space-between;
+}
