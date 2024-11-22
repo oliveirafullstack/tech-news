@@ -1,5 +1,13 @@
 ---
-
+const myValues = [
+  { value: "Inteligência Artificial" },
+  { value: "Blockchain" },
+  { value: "Hologramas" },
+  { value: "Internet" },
+  { value: "Vestíveis" },
+  { value: "Realidade Aumentada" },
+  { value: "Realidade Virtual" },
+];
 ---
 
 <header>
@@ -15,13 +23,7 @@
     </div>
   </nav>
   <nav id="secondary">
-    <a href="#">Inteligência Artificial</a>
-    <a href="#">Blockchain</a>
-    <a href="#">Hologramas</a>
-    <a href="#">Internet</a>
-    <a href="#">Vestíveis</a>
-    <a href="#">Realidade Aumentada</a>
-    <a href="#">Realidade Virtual</a>
+    {myValues.map((val) => <a href="#">{val.value}</a>)}
   </nav>
 </header>
 
