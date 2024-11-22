@@ -5,26 +5,59 @@ import Image2 from "../assets/Image 02.png";
 import Image3 from "../assets/Image 03.png";
 import Image4 from "../assets/Image 04.png";
 import Image5 from "../assets/Image 05.png";
+import Tag from "../Tag.astro";
+import DescriptionH1 from "../DescriptionH1.astro";
+import DescriptionH3 from "../DescriptionH3.astro";
 ---
 
 <main>
   <section id="featured">
-    <div>
+    <figure class="card">
       <Image src={Image1} alt="Texto da imagem" width="608" height="416" />
-    </div>
+      <figcaption>
+        <Tag contentTag="Robotica" />
+        <DescriptionH1
+          content="Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências."
+        />
+      </figcaption>
+    </figure>
     <div class="featured-right">
-      <div>
+      <figure class="card">
         <Image src={Image2} alt="Texto da imagem" width="288" height="200" />
-      </div>
-      <div>
+        <figcaption>
+          <Tag contentTag="Hologramas" />
+          <DescriptionH3
+            subContent="Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!"
+          />
+        </figcaption>
+      </figure>
+      <figure class="card">
         <Image src={Image3} alt="Texto da imagem" width="288" height="200" />
-      </div>
-      <div>
+        <figcaption>
+          <Tag contentTag="Internet" />
+          <DescriptionH3
+            subContent="Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comu..."
+          />
+        </figcaption>
+      </figure>
+      <figure class="card">
         <Image src={Image4} alt="Texto da imagem" width="288" height="200" />
-      </div>
-      <div>
+        <figcaption>
+          <Tag contentTag="Vestíveis" />
+          <DescriptionH3
+            subContent="Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o..."
+          />
+        </figcaption>
+      </figure>
+      <figure class="card">
         <Image src={Image5} alt="Texto da imagem" width="288" height="200" />
-      </div>
+        <figcaption>
+          <Tag contentTag="Realidade Virtual" />
+          <DescriptionH3
+            subContent="Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tra..."
+          />
+        </figcaption>
+      </figure>
     </div>
   </section>
 
@@ -46,6 +79,9 @@ import Image5 from "../assets/Image 05.png";
         display: indx.$grid;
         grid-template-columns: indx.$grid-cols-2;
         gap: indx.$gap;
+        figcaption {
+          padding: 12px;
+        }
       }
     }
   </style>

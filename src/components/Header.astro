@@ -1,5 +1,5 @@
 ---
-const myValues = [
+const MENU_ITENS = [
   { value: "Inteligência Artificial" },
   { value: "Blockchain" },
   { value: "Hologramas" },
@@ -23,7 +23,7 @@ const myValues = [
     </div>
   </nav>
   <nav id="secondary">
-    {myValues.map((val) => <a href="#">{val.value}</a>)}
+    {MENU_ITENS.map((val) => <a href="#">{val.value}</a>)}
   </nav>
 </header>
 

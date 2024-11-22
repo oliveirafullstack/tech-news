@@ -1,5 +1,6 @@
 ---
 import Header from "../components/Header.astro";
+import Tag from "../components/Tag.astro";
 const { title } = Astro.props;
 ---
 
@@ -62,5 +63,21 @@ const { title } = Astro.props;
     max-width: 100%;
     border-radius: 4px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  }
+  .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 0%, #020617 100%);
+    }
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
+    }
   }
 </style>
