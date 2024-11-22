@@ -34,7 +34,7 @@ const { title } = Astro.props;
 </html>
 <style is:global lang="scss">
   @use "../styles/variables.scss" as var;
-
+  @use "../styles/mixins.scss" as mx;
   * {
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@ const { title } = Astro.props;
     color: var.$text-color-primary;
     font: var.$text;
   }
-  :is(h1, h2, h3, p, span) {
+  :is(h1, h3, p, span) {
     font: inherit;
     text-wrap: balance;
   }
@@ -69,6 +69,19 @@ const { title } = Astro.props;
     overflow: hidden;
     position: relative;
     border-radius: 4px;
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
+      z-index: 1;
+      span {
+        @include mx.content-tag;
+      }
+      h2 {
+        margin-top: 8px;
+        @include mx.text-2xl;
+      }
+    }
     &::before {
       content: "";
       position: absolute;

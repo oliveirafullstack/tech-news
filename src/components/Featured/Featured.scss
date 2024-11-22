@@ -4,13 +4,13 @@
   img {
     height: 100%;
     object-fit: cover;
-
     box-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.5);
   }
+
   @include mx.gap-16;
   @include mx.grid;
   @include mx.grid-flow-col;
-  & > div {
+  & > figure {
     @include mx.grid;
     @include mx.grid-cols-2;
     @include mx.gap-16;
@@ -18,4 +18,12 @@
       grid-column: 1/3;
     }
   }
+}
+figure:nth-child(2) figcaption h2 {
+  @include mx.text-lg;
+}
+
+figure:nth-child(2) figcaption {
+  font-size: 45ch;
+  padding: 12px;
 }
