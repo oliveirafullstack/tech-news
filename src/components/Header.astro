@@ -1,6 +1,5 @@
 ---
-import "../../styles/mixins.scss";
-import "./Header.scss";
+
 ---
 
 <header>
@@ -25,3 +24,31 @@ import "./Header.scss";
     <a href="#">Realidade Virtual</a>
   </nav>
 </header>
+
+<style lang="scss">
+  @use "../styles/main.scss" as indx;
+  #primary {
+    display: indx.$grid;
+    grid-auto-flow: indx.$grid-flow-col;
+    padding-block: 20px;
+    div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    & div:nth-child(2) {
+      margin-inline: auto;
+    }
+    & div:nth-child(3) {
+      justify-self: end;
+    }
+  }
+  #secondary {
+    display: indx.$grid;
+    grid-auto-flow: indx.$grid-flow-col;
+    padding-block: 14px;
+    border: 1px solid indx.$stroke-color;
+    border-inline: none;
+    justify-content: space-between;
+  }
+</style>

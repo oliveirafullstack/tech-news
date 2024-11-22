@@ -1,6 +1,0 @@
-@use "../../styles/mixins.scss" as mx;
-
-main {
-  @include mx.grid;
-  margin-top: 40px;
-}

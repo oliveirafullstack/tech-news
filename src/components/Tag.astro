@@ -1,0 +1,20 @@
+---
+const { contentTag } = Astro.props;
+---
+
+<span>{contentTag}</span>
+
+<style lang="scss">
+  @use "../styles/index.scss" as indx;
+  span {
+    display: inline-block;
+    background-color: indx.$brand-color-dark;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font: indx.$font-tag;
+    letter-spacing: 0.04em;
+    color: indx.$text-color-primary;
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
+  }
+</style>

@@ -13,3 +13,10 @@ $heading3: 800 14px/140% $font-default;
 $text-span: 600 14px/145% $font-default;
 $text: 400 16px/140% $font-default;
 $text-sm: 400 14px/160% $font-default;
+$font-tag: 500 10px/120% $font-default;
+
+//Grid
+$grid: grid;
+$grid-flow-col: column;
+$grid-cols-2: repeat(2, 1fr);
+$gap: 16px;

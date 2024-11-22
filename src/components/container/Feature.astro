@@ -1,0 +1,52 @@
+---
+import { Image } from "astro:assets";
+import Image1 from "../assets/Image 01.png";
+import Image2 from "../assets/Image 02.png";
+import Image3 from "../assets/Image 03.png";
+import Image4 from "../assets/Image 04.png";
+import Image5 from "../assets/Image 05.png";
+---
+
+<main>
+  <section id="featured">
+    <div>
+      <Image src={Image1} alt="Texto da imagem" width="608" height="416" />
+    </div>
+    <div class="featured-right">
+      <div>
+        <Image src={Image2} alt="Texto da imagem" width="288" height="200" />
+      </div>
+      <div>
+        <Image src={Image3} alt="Texto da imagem" width="288" height="200" />
+      </div>
+      <div>
+        <Image src={Image4} alt="Texto da imagem" width="288" height="200" />
+      </div>
+      <div>
+        <Image src={Image5} alt="Texto da imagem" width="288" height="200" />
+      </div>
+    </div>
+  </section>
+
+  <style lang="scss">
+    @use "../../styles/main.scss" as indx;
+
+    main {
+      margin-top: 40px;
+    }
+    #featured {
+      display: indx.$grid;
+      grid-auto-flow: indx.$grid-flow-col;
+      gap: indx.$gap;
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+      .featured-right {
+        display: indx.$grid;
+        grid-template-columns: indx.$grid-cols-2;
+        gap: indx.$gap;
+      }
+    }
+  </style>
+</main>
