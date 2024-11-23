@@ -1,13 +1,13 @@
 ---
 import { Image } from "astro:assets";
-import Image1 from "../assets/Image 01.png";
-import Image2 from "../assets/Image 02.png";
-import Image3 from "../assets/Image 03.png";
-import Image4 from "../assets/Image 04.png";
-import Image5 from "../assets/Image 05.png";
-import Tag from "../Tag.astro";
-import DescriptionH1 from "../DescriptionH1.astro";
-import DescriptionH3 from "../DescriptionH3.astro";
+import Image1 from "../components/assets/Image 01.png";
+import Image2 from "../components/assets/Image 02.png";
+import Image3 from "../components/assets/Image 03.png";
+import Image4 from "../components/assets/Image 04.png";
+import Image5 from "../components/assets/Image 05.png";
+import Tag from "../components/Tag.astro";
+import DescriptionH1 from "../components/DescriptionH1.astro";
+import DescriptionH3 from "../components/DescriptionH3.astro";
 ---
 
 <main>
@@ -62,7 +62,7 @@ import DescriptionH3 from "../DescriptionH3.astro";
   </section>
 
   <style lang="scss">
-    @use "../../styles/main.scss" as indx;
+    @use "../styles/main.scss" as indx;
 
     main {
       margin-top: 40px;
