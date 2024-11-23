@@ -1,0 +1,56 @@
+---
+const MENU_ITENS = [
+  { value: "Inteligência Artificial" },
+  { value: "Blockchain" },
+  { value: "Hologramas" },
+  { value: "Internet" },
+  { value: "Vestíveis" },
+  { value: "Realidade Aumentada" },
+  { value: "Realidade Virtual" },
+];
+---
+
+<header>
+  <nav id="primary">
+    <div>
+      <img src="/icons/List.svg" alt="icone de menu" />
+      <strong>Menu</strong>
+    </div>
+    <div><img src="/icons/Logo.svg" alt="Logo Tech News | OFS" /></div>
+    <div>
+      <strong>Buscar</strong>
+      <img src="/icons/MagnifyingGlass.svg" alt="Icone de Lupa para pesquisa" />
+    </div>
+  </nav>
+  <nav id="secondary">
+    {MENU_ITENS.map((val) => <a href="#">{val.value}</a>)}
+  </nav>
+</header>
+
+<style lang="scss">
+  @use "../styles/main.scss" as indx;
+  #primary {
+    display: indx.$grid;
+    grid-auto-flow: indx.$grid-flow-col;
+    padding-block: 20px;
+    div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    & div:nth-child(2) {
+      margin-inline: auto;
+    }
+    & div:nth-child(3) {
+      justify-self: end;
+    }
+  }
+  #secondary {
+    display: indx.$grid;
+    grid-auto-flow: indx.$grid-flow-col;
+    padding-block: 14px;
+    border: 1px solid indx.$stroke-color;
+    border-inline: none;
+    justify-content: space-between;
+  }
+</style>

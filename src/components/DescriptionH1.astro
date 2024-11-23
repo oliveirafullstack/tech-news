@@ -1,0 +1,15 @@
+---
+const { content } = Astro.props;
+---
+
+<h2>
+  {content}
+</h2>
+
+<style lang="scss">
+  @use "../styles/main.scss" as indx;
+  h2 {
+    margin-top: 8px;
+    font: indx.$heading1;
+  }
+</style>
