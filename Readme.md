@@ -183,8 +183,9 @@ Acesse a versão on-line Projeto clicando no Link Abaixo
 developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit)<br>
 &copy; Todos os Direitos Reservados
 
-> [!important]
-> Clique na seta abaixo para ver como você pode contribuir.
+> [!TIP]
+>
+> Clique na seta abaixo para ver como **você** pode contribuir.
 
 ### Contribute to the projects
 
