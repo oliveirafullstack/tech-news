@@ -77,7 +77,7 @@ Requisitos necessários para rodar o projeto:<br>
 
 > [!IMPORTANT]
 >
-> - Run Time [Node.js](https://nodejs.org/en/) com a versão _16 ou superior_.<br>
+> - Run Time [Node.js](https://nodejs.org/en/) com a versão _20 ou superior_.<br>
 > - Um editor de códigos onde eu recomendo o [VCode](https://code.visualstudio.com/)<br>
 > - E o [git](https://git-scm.com/downloads) uma aplicação de versionamento de código.
 
