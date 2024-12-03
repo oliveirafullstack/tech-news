@@ -183,10 +183,10 @@ Acesse a versão on-line Projeto clicando no Link Abaixo
 developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit)<br>
 &copy; Todos os Direitos Reservados
 
-### Contribute to the projects
-
 > [!important]
 > Clique na seta abaixo para ver como você pode contribuir.
+
+### Contribute to the projects
 
 <details close>
 
@@ -233,15 +233,12 @@ Isso criará uma cópia local do projeto, onde você poderá fazer suas modifica
 
 ## Contact
 
-<div>
-
 [![Lindekin](https://img.shields.io/badge/--path?style=social&logo=Linkedin&logoColor=%230664C1&logoSize=auto&label=Linkedin&labelColor=%23fff&cacheSeconds=https%3A%2F%2Fwww.linkedin.com%2Fin%2Femmanuel-marcos-oliveira%2F)](https://www.linkedin.com/in/emmanuel-marcos-oliveira/)
 [![WhatsApp](https://img.shields.io/badge/--path?style=social&logo=WhatsApp&logoColor=%231F3833&logoSize=auto&label=WhatsApp&color=%23fff&cacheSeconds=https%3A%2F%2Fwa.me%2F5511968336094)](https://wa.me/5511968336094)\
 [![Discord](https://img.shields.io/badge/--path?style=social&logo=discord&logoSize=auto&label=Discord&color=%23fff&cacheSeconds=https%3A%2F%2Fdiscord.com%2Finvite%2FjabEup5kEr)](https://discord.com/invite/jabEup5kEr)
 <a href="mailto:oliveirafullstack@gmail.com"><img alt="Static Badge" src="https://img.shields.io/badge/--path?style=social&logo=Gmail&logoSize=auto&label=Gmail&cacheSeconds=--query&link=mailto%3Adev-oliveira%40outlook.com.br%22"> </a>
 
-</div>
-<sub>😁Obrigado por chegar até aqui!<sub>
+<sub>😁Obrigado por chegar até aqui!</sub>
 
 ## License
 
