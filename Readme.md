@@ -184,9 +184,9 @@ developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepag
 &copy; Todos os Direitos Reservados
 <br>
 
-> Clique na seta abaixo para ver como **você** pode contribuir.
-
 ### Contribute to the projects
+
+> Clique na seta abaixo para ver como **você** pode contribuir.
 
 <details close>
 
