@@ -177,14 +177,14 @@ Acesse a versão on-line Projeto clicando no Link Abaixo
 
 ## Contributors or owners
 
-<img height="64px" src="./public/assets/profile.png"><br>
+<img height="64px" src="./src/assets/images/profile.png"><br>
 <small>Emmanuel Oliveira</small>
 
 developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit)<br>
 &copy; Todos os Direitos Reservados
+<br>
 
 > [!TIP]
->
 > Clique na seta abaixo para ver como **você** pode contribuir.
 
 ### Contribute to the projects
