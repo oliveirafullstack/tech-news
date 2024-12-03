@@ -71,6 +71,18 @@ trabalhar com compressão de _Imagens_ dentro do `Astro` estilizando os elemento
 
 Requisitos necessários para rodar o projeto:<br>
 
+### Prerequisites
+
+`Node.js` `VSCode` `Git`
+
+> [!IMPORTANT]
+>
+> - Run Time [Node.js](https://nodejs.org/en/) com a versão _16 ou superior_.<br>
+> - Um editor de códigos onde eu recomendo o [VCode](https://code.visualstudio.com/)<br>
+> - E o [git](https://git-scm.com/downloads) uma aplicação de versionamento de código.
+
+<!-- > - Extensão do VSCode [**Live Server**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) -->
+
 ### technologies and tools
 
 `Astro` `JavaScript` `HTML` `SASS` `Pnpm`
