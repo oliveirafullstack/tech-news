@@ -186,7 +186,7 @@ developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepag
 ### Contribute to the projects
 
 > [!important]
-> Clique na seta abaixo para ver como você pode contribuir</small>
+> Clique na seta abaixo para ver como você pode contribuir.
 
 <details close>
 
@@ -245,7 +245,9 @@ Isso criará uma cópia local do projeto, onde você poderá fazer suas modifica
 
 ## License
 
-![Static Badge](https://img.shields.io/badge/--path?style=plastic&logo=mit&logoSize=auto&label=license%20MIT&labelColor=%23555555&color=%2397CA00)<br>
+![Static Badge](https://img.shields.io/badge/--path?style=plastic&logo=mit&logoSize=auto&label=license%20MIT&labelColor=%23555555&color=%2397CA00)
+<br>
+
 Released in 2024 This project is under the **MIT license**<br>
 <br>
 
